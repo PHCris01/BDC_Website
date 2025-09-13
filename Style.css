@@ -1,0 +1,200 @@
+body {
+    margin: 0px;
+    background-image: url("/Pictures/BDC.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.ghost-img {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 25vh;
+    height: 92.50vh;
+    object-fit: cover;
+    z-index: 10;
+    border: none;
+    outline: none;
+    opacity: 0.5;
+}
+
+h1 {
+    margin-top: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    font-family: Helvetica;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+    border: 2px groove white;
+    border-radius: 25px;
+    background: linear-gradient(darkblue, white);
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 10px white;
+}
+
+h3 {
+    text-align: left;
+    font-family: Helvetica;
+    color: white;
+    margin-left: 2%;
+    text-shadow: 0px 0px 10px black;
+    font-style: italic;
+}
+
+p {
+    color: white;
+    font-size: 100%;
+    margin-left: 2%;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+}
+
+.social-link {
+    margin-left: 3%;
+    margin-top: 0.1%;
+}
+
+.fab {
+    padding: 1em;
+    width: 1em;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.fa-tiktok {
+    background-color: darkblue;
+    padding: 0.50%;
+    transition: 0.5s;
+}
+
+.fa-facebook-f {
+    background-color: darkblue;
+    padding: 0.50%;
+    transition: 0.5s;
+}
+
+.fa-tiktok:hover {
+    background-color: blue;
+    box-shadow: 0px 0px 10px cyan;
+}
+
+.fa-facebook-f:hover {
+    background-color: blue;
+    box-shadow: 0px 0px 10px cyan;
+}
+
+h4 {
+    margin-left: 2%;
+    margin-bottom: 0.50%;
+    font-family: Helvetica;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+    font-style: italic;
+}
+
+form {
+    margin-top: -10%;
+    margin-left: 35%;
+    margin-right: 35%;
+    text-align: center;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 12px;
+    background: rgba(0, 0, 139, 0.30);
+    backdrop-filter: blur(20px);
+}
+
+#form2 {
+    color: white;
+}
+
+form h2 {
+    color: white;
+    font-family: helvetica;
+    font-style: italic;
+}
+
+form .input-user {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 4px 0;
+    padding-bottom: 6%;
+}
+
+.input-user input {
+    width: 50%;
+    height: 50%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 40px;
+    font-size: 14px;
+    color: white;
+    padding: 2% 4% 2% 2%;
+}
+
+.input-user input::placeholder {
+    color: white;
+}
+
+form .btn {
+    border-radius: 40px;
+    margin-bottom: 5%;
+    width: 30%;
+    height: 30px;
+    background: linear-gradient(darkblue, white);
+    border: none;
+    outline: none;
+    text-shadow: 0px 0px 10px black;
+    font-style: italic;
+    font-family: Helvetica;
+    transition: 0.3s;
+}
+
+form .btn:hover {
+    box-shadow: 0px 0px 10px lightblue;
+    background: linear-gradient(white, darkblue);
+}
+
+.navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    border: none;
+    outline: shadow;
+    backdrop-filter: blur(20px);
+}
+
+.navbar .navbtn {
+    margin: 1% 1%;
+    float: right;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    background: linear-gradient(darkblue, white);
+    padding: 0.25% 0.25%;
+}
+
+.navbtn:hover{
+    background: linear-gradient(white, darkblue);
+    box-shadow: 0px 0px 10px cyan;
+}
+
+.agreement {
+    color: white;
+    font-family: Helvetica;
+    margin-bottom: 4%;
+}
+
